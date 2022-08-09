@@ -1,0 +1,153 @@
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+h5 {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 2.5em;
+  font-family: sans-serif;
+  color: #40434a;
+  margin-left: -1em;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 1em;
+  font-family: sans-serif;
+  color: #40434a;
+}
+p {
+  text-align: center;
+  color: #8790a4;
+}
+h6 {
+  color: #aeb8cd;
+  margin: 0 3px;
+  margin-top: 2px;
+}
+.form-main {
+  width: 23em;
+  margin: auto;
+  color: #465166;
+  font-family: sans-serif;
+}
+.form-main input {
+  border-radius: 6px;
+  height: 3em;
+  border: 1px solid #d9cfff;
+}
+.form-main span {
+  border-radius: 6px;
+  height: 3em;
+  border: 1px solid #d9cfff;
+  background-color: #f8f9fc;
+  color: rgb(177, 173, 173);
+  font-weight: 500;
+}
+.form-main input::placeholder {
+  color: rgb(177, 173, 173);
+}
+.btn {
+  width: 100%;
+  background-color: #5a4ad1;
+  height: 3em;
+  border-radius: 6px;
+  box-shadow: none !important;
+}
+.btn:hover {
+  background-color: #6553ea;
+}
+
+.select-box div {
+  padding: 5px 15px;
+  text-align: start;
+  border: 1px solid #5a4ad1;
+  margin: 13px;
+  border-radius: 6px;
+}
+.select-box div:nth-child(2) {
+  border: 1px solid #e0e6f3;
+}
+.select-box h4 {
+  font-size: 18px;
+  font-weight: 550;
+}
+.select-box p {
+  text-align: start;
+}
+.select-box img {
+  padding: 10px 0;
+}
+.check {
+  padding: 15px;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  background-color: #6553ea;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  margin: 50px auto;
+}
+
+/* progress step css */
+.progress-main {
+  margin: auto;
+  position: relative;
+  width: fit-content;
+}
+.progress-main span {
+  color: rgb(135, 135, 135);
+  background-color: #fff;
+  border: 1px solid #b4b4b4;
+  border-radius: 50%;
+  margin: 30px;
+  width: 30px;
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.step-slider {
+  position: relative;
+  background-color: #f4f6f9;
+  color: white;
+  padding: 1px;
+  width: 75%;
+  left: 3em;
+  top: 2.9em;
+  height: 1px !important;
+  z-index: -1;
+}
+.step-slider hr {
+  position: absolute;
+  width: 20%;
+  margin-top: -2px;
+  height: 2px !important;
+  background-color: #5a4ad1;
+  opacity: 1;
+}
+
+.step1,
+.step2,
+.step3,
+.step4 {
+  background-color: #5a4ad1 !important;
+  color: #ffff !important;
+}
+
+@media screen and (max-width: 360px) {
+  .progress-main span {
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+  }
+  .step-slider {
+    top: 2.6em;
+  }
+}
