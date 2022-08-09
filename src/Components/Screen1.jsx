@@ -4,7 +4,7 @@ const Screen1 = ({ setStep }) => {
   return (
     <>
       <h3>Welcome! First things first...</h3>
-      <p className="text">You can always change them later</p>
+      <p className="text">You can always change them later.</p>
 
       <Form className="form-main">
         <Form.Group className="mb-3">
